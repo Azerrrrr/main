@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+.firstsection{
+    background-image: url(./background.png);
+    background-size: cover;
+    width: 100%;
+}
+.mobile{
+    display: none;
+}
+.son1section{
+    display: none;
+}
+.ul1{
+    list-style-type: none;
+}
+.tehsil{
+    position: absolute;
+    top:5%;
+    left: 22.8%;
+}
+.nav1{
+    padding-top: 2%;
+}
+.ul2{
+    list-style-type: none;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    gap: 59px;
+    padding-top: 9%;
+}
+.divnav{
+    display:flex ;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1{
+    font-size: 64px;
+    color: #30FFCD;
+    font-family: 'Oswald', sans-serif;
+    width: 550px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.webdep{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    width: 628px;
+    height: 85px;
+    font-weight: 600;
+}
+.basla{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    border-bottom: 2px dashed  #FFE920;
+    margin-bottom: 50%;
+}
+.secondsection{
+    width: 100%;
+}
+.anket2{
+    display: none;
+}
+.ilksozler{
+    margin-left: 12.3% ;
+    padding-top: 4%;
+    padding-bottom: 10%;
+}
+.nav3{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    margin-left: 12%;
+    margin-right: 0;
+}
+h2{
+    font-size: 47px;
+    color: #382459;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+}
+.anket{
+    width: 224px;
+    height: 48px;
+    border-radius: 48px;
+    background-color: #FF1DC0;
+    color: #FFFFFF;
+    margin-top: 4.9%;
+    margin-right: 8%;
+    border: 1px solid transparent;
+}
+.opsi{
+    display: flex;
+    gap: 17%;
+    margin-left: 12%;
+    margin-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 5%;
+}
+.a1, .b1 {
+    font-weight: 600;
+    color: #382459;
+    font-size : 25px;
+}
+.a2, .b2{
+    font-size: 16px;
+    color:#382459;
+    font-weight: 600
+}
+.img{
+    position: absolute;
+    top: 287.5%;
+    right: 10%;
+}
+.thirdclass{
+    background-image: url(./Rectangle\ 1218.png);
+    background-size: cover;
+    width: 100%;
+}
+.fuzuli{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #30FFCD;
+}
+.azer{
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.trud{
+    font-size: 10px;
+    color: #FFFFFF;
+    opacity: 0.62;
+    font-family: 'Montserrat', sans-serif;
+}
+.ilkfaizler{
+    display: flex;
+    gap: 25%;
+    margin-left: 12%;
+}
+.fuzuli{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #30FFCD;
+
+}
+.azer{
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.trud{
+    font-size: 10px;
+    color: #FFFFFF;
+    opacity: 0.62;
+    font-family: 'Montserrat', sans-serif;
+}
+.ikincifaizler{
+    display: flex;
+    gap: 18%;
+    margin-left: 12%;
+}
+.faizler{
+    padding-bottom: 7%;
+    padding-top: 3%;
+}
+.fourthsection{
+    color: #382459;
+    width: 100%;
+}
+.tedris{
+    font-family: 'Oswald', sans-serif;
+    font-size: 47px;
+    font-weight: 700;
+    padding-top: 3%;
+}
+.qarisqa{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    gap: 10%;
+    padding-bottom: 6%;
+}
+.boyuk{
+    font-size: 25px;
+    font-weight: 800;
+}
+.balaca{
+    font-size: 16px;
+    font-weight: 600;
+}
+.qarisqa, .tedris{
+    margin-left: 12%;
+}
+.fifthsection{
+    background-image: url(./Rectangle\ 1353\ \(1\).png);
+    width: 100%;
+    background-size: cover;
+    width: 100%;
+}
+.sisteminzibat, .web{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    color: #30FFCD;
+}
+.aparat , .texnologiya{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+.kursunproqrami{
+    color: #30FFCD;
+    background-color: transparent;
+    border: 2px solid #30FFCD;
+    border-radius: 48px;
+    width: 192px;
+    height: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;   
+    font-weight: 500; 
+}
+.div5section{
+    display: flex;
+    gap: 10%;
+    margin-left: 11%;
+    padding-top: 4%;
+    padding-bottom: 7%;
+}
+.istirak{
+    color: #382459;
+    font-family: 'Oswald', sans-serif;
+    font-size: 47px;
+    font-weight: 700;
+}
+.eger{
+    font-weight: 500;
+    font-size: 16px;
+    color: #382459;
+}
+.div6section{
+    margin-left: 11%;
+    padding-top: 4%;
+    padding-bottom: 8.5%;
+}
+.sixthsection{
+    display: flex;
+    width: 100%;
+}
+.kisi{
+    position: absolute;
+    top: 427%;
+    right: 3%;
+}
+.seventhsection{
+    background-image: url(./Rectangle\ 1354.png);
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+.almaq{
+    text-transform: uppercase;
+    color: #30FFCD;
+    font-size: 47px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif; 
+}
+.muraciet100{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.doldurun{
+    background-color: #FF1DC0;
+    color:#FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    width: 224px;
+    height: 48px;
+    border-radius: 48px;
+    border: 1px solid transparent;
+}
+.div7section{
+    display: flex;
+    gap: 6%;
+    padding-bottom: 5%;
+}
+.ucbucaq{
+    margin-left: 17%;
+}
+.add{
+    padding-top: 5.5%;
+    padding-bottom: 5%;
+}
+.elaqe{ 
+    display: flex; 
+    justify-content: space-around; 
+    padding-top: 8%; 
+    margin-left: 5%; 
+    margin-right: 5%; 
+    gap: 30%; 
+    padding-bottom: 8%; 
+} 
+.union{ 
+    display:flex; 
+    flex-direction: column; 
+} 
+.insta1{ 
+    width: 19px; 
+    height: 21px; 
+} 
+.insta1{ 
+    padding-top: 45%; 
+} 
+.fevral11{ 
+    padding-top: 11%; 
+} 
+.code1{ 
+    display: flex;
+    gap: 23%; 
+} 
+.phone{ 
+    font-family: Montserrat; 
+    font-weight: bold; 
+    font-size: 16px; 
+    color: #382459; 
+    letter-spacing: 1px; 
+    margin-top: 0%;
+    font-weight: 900;
+} 
+.azii{ 
+    margin-left: 16%; 
+} 
+.fevral1{ 
+    font-family: Montserrat; 
+    font-weight: 600; 
+    font-size: 16px; 
+    color: #382459; 
+    width: 383px;
+    padding-top: 4%; 
+}
+@media (min-width:320px) and (max-width:480px){   
+    .firstsection{
+        background-image: url(./image\ 2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 330px;
+        width: 100%;
+        position: relative;
+    }
+    .firstsection::before{
+        background-image: url(./Rectangle\ 994.png);
+        width: 100%;
+        height: 443px;
+        position: absolute;
+        content: "";
+        z-index: 1;
+    }
+    .ilksozler{
+        z-index: 1;
+        position: absolute;
+        content: ""; 
+        margin-top: 55%;
+    }
+    .gradient{
+        display: block;
+        background-color: #382459;
+        width: 100%;
+        height: 210px;
+        margin-top: 84%;
+    }
+    .divnav{
+        display: none;
+    }
+    h1{
+        width: 100%;
+    }
+    .webdep{
+        width: 100%;
+    }
+    .anket{
+        display: none;
+    }
+    .mobile{
+        display: inline;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 8%;
+        z-index: 1;
+        position: relative;
+    }
+    .son1section{
+        display: block;
+        margin-top: -21%;
+        margin-left: 13%;
+    }
+    .webdep{
+        font-size: 11px;
+        width: 268px;
+        height: 80px;
+    }
+
+    .nazirlik{
+        margin-left: 26%;
+        margin-bottom: 10%;
+    }
+    .adnsu1{
+        margin-bottom: 13.5%;
+    }
+    .xetler{
+        width: 24px;
+        height: 25px;
+    }
+    .webdep{
+        font-size: 12px;
+    }
+    h2{
+        font-size: 24.7px;
+        margin-left: 0%;
+        padding-top: 5%;
+    }
+    .opsi{
+        display: block;
+    }
+    .faizler{
+        display: block;
+    }
+    .ilkfaizler{
+        display: block;
+    }
+    .a1, .b1{
+        font-size: 18px;
+    }
+    .a2, .b2{
+        font-size: 11px;
+    }
+    .uni{
+        padding-top: 10%;
+    }
+    .ikincifaizler{
+        display: block;
+        padding-bottom: 30%;
+    }
+    .kisi{
+        display: none;
+    }
+    .img{
+        position: absolute;
+        top: 440.5%;
+    }
+    .tedris{
+        font-size: 24.7px;
+        margin-top: 15%;
+    }
+    .nav3{
+        padding-top: 65%;
+    }
+    .anket2{
+        display: inline;
+        width: 193px;
+        height: 40px;
+        border-radius: 48px;
+        background-color: #FF1DC0;
+        color: #FFFFFF;
+        margin-top: 15%;
+        margin-left: 11%;
+        margin-bottom: 20%;
+        border: 1px solid transparent;
+    }
+    .azer{
+        font-size: 11px;
+    }
+    .trud{
+        font-size: 9px;
+    }
+    .qarisqa{
+        display: block;
+        margin-top: -45px;
+    } 
+    .boyuk{
+        font-size: 18px;
+        font-weight: 600px;
+    }
+    .balaca{
+        font-size: 11px;
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .div5section{
+        display: block;
+    }
+    .istirak{
+        font-size: 24.7px;
+    }
+    .eger{
+        font-size: 11px;
+        font-weight: 500;
+        margin-bottom: 5% ;
+    }
+    .add{
+        z-index: 5;
+    }
+    .ucbucaq{
+        position: absolute;
+        top:  -17%;
+        left: 1.5%;
+        width: 260px;
+        height: 270px;
+        z-index: 1;
+        right: 0;
+    }
+    .almaq{
+        font-size: 24.7px;
+    }
+    .add{
+        margin-top: 20%;
+        margin-bottom: 15%;
+    }
+    .code1{
+        display: block;
+    }
+    .phone{
+        padding-top: 15%;
+    }
+    .fevral1{
+        margin-top: -15%;
+        width: 100%;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .union{
+        display: flex;
+        flex-direction: row;
+    }
+    .secim{
+        display: block;
+    }
+    .insta1{
+        padding-top: 2.5%;
+        padding-left: 15%;
+    }
+    .elaqe{
+        display: flex;
+        flex-direction: column;
+        padding-left: 5%;
+    }
+    .qebul{
+        margin-top: 15%;
+    }
+}
